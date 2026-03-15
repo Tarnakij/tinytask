@@ -1,0 +1,23 @@
+echo url=https://github.com | git-credential-manager erase
+git push https://ShiroRinS@github.com/ShiroRinS/tinytask.git
+git config user.name "ShiroRinS"
+git config user.email "ashiyashakira@gmail.com"
+
+
+
+
+--------
+echo url=https://github.com | git-credential-manager erase
+git push https://Tarnakij@github.com/Tarnakij/tinytask.git
+git config user.name "Tarnakij"
+git config user.email "tarnakij@gmail.com"
+--------
+git config --global user.name "Tarnakij"
+git config --global user.email "tarnakij@gmail.com"
+--------
+Step 1 — Remove the old stored credentials:
+
+Open Windows Credential Manager (search it in the Start menu)
+Click Windows Credentials
+Find any entry with github.com (e.g., git:https://github.com)
+Click it → Remove
